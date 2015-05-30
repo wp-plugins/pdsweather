@@ -36,17 +36,9 @@ To manually install the extension:
 1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Setup the plugin on the settings page
-4. Place `<?php echo getWeather(); ?>` in your templates
+4. Place `<?php echo pdsWeather(); ?>` in your templates
 
 == Frequently Asked Questions ==
-
-= A question that someone might have =
-
-An answer to that question.
-
-= What about foo bar? =
-
-Answer to foo bar dilemma.
 
 == Screenshots ==
 
