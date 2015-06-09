@@ -1,14 +1,14 @@
 <?php
 /**
  * @package pdsWeather
- * @version 1.0
+ * @version 1.1
  */
 /*
 Plugin Name: Weather
 Plugin URI: http://prood-os.com/weather-plugin
 Description: Weather plugin by Proodos. Shows current conditions anywhere on your web page. After activation adjust plugin's settings and then echo pdsWeather() where you want it to show
 Author: Iva Korlevic, Proodos j.d.o.o.
-Version: 1.0
+Version: 1.1
 Author URI: http://prood-os.com
 License: GPL2
 */

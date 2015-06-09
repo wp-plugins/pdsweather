@@ -50,3 +50,7 @@ To manually install the extension:
 * Weather conditions change once per hour.
 * Shows conditions and feels like string.
 * Uses WU icons and weather font.
+
+= 1.1 =
+* solved bug with showing of the countries
+* added F and °C for temperature strings
