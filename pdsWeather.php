@@ -72,13 +72,13 @@ function pdsWeather(){
             if(get_option('degrees')){
                 $degrees = get_option('degrees');
                 if(isset($degrees['f'])){
-                    $html .= '<span class="deg">'.$current['feelslike_f'].'</span>';
+                    $html .= '<span class="deg">'.$current['feelslike_f'].' F</span>';
                 }
                 if(isset($degrees['c'])){
-                    $html .= '<span class="deg">'.$current['feelslike_c'].'</span>';
+                    $html .= '<span class="deg">'.$current['feelslike_c'].' °C</span>';
                 }
             }else{
-                $html .= '<span class="deg">'.$current['feelslike_f'].'</span>'.'<span class="deg">'.$current['feelslike_c'].'</span>';
+                $html .= '<span class="deg">'.$current['feelslike_f'].' F</span>'.'<span class="deg">'.$current['feelslike_c'].' °C</span>';
             }
         $html.='</small>';
     }
@@ -93,7 +93,7 @@ function pdsWeather(){
             $html .= '<span class="deg">'.$current['temp_f'].' F</span>';
         }
         if(isset($degrees['c'])){
-            $html .= '<span class="deg">'.$current['temp_c'].' C</span>';
+            $html .= '<span class="deg">'.$current['temp_c'].' °C</span>';
         }
     }else{
         $html .= '<span class="deg">'.$current['temp_f'].' F</span>'.'<span class="deg">'.$current['temp_c'].' °C</span>';
