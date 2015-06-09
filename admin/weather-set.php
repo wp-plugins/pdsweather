@@ -5,7 +5,7 @@
  * Date: 3.4.2015.
  * Time: 23:30
  */
-$cntry = simplexml_load_file(WP_PLUGIN_DIR.'/pdsWeather/admin/country.xml');
+$cntry = simplexml_load_file(WP_PLUGIN_DIR.'/pdsweather/admin/country.xml');
 
 if(isset($_POST) && !empty($_POST)){
     foreach($_POST as $key=>$opt){
