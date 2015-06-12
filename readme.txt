@@ -54,3 +54,6 @@ To manually install the extension:
 = 1.1 =
 * solved bug with showing of the countries
 * added F and °C for temperature strings
+
+= 1.1.1 =
+* another little bug solved
