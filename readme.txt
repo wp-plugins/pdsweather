@@ -3,8 +3,8 @@ Contributors: proodos
 Donate link: http://prood-os.com/
 Tags: weather, current conditions
 Requires at least: 3.0.1
-Tested up to: 4.1
-Stable tag: 4.1
+Tested up to: 4.2
+Stable tag: 4.2
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
